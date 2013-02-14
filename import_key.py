@@ -6,7 +6,7 @@ Create a temporary environment then import a key from a string.
 
 Based on
 /usr/lib/python2.7/dist-packages/gpgme/tests/util.py
-/usr/lib/python2.7/dist-packages/gpgme/tests/util.py
+/usr/lib/python2.7/dist-packages/gpgme/tests/test_import.py
 '''
 
 import os
@@ -14,7 +14,6 @@ import random
 import shutil
 import time
 import gpgme
-import StringIO
 
 
 # Create environment
